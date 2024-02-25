@@ -1,4 +1,4 @@
-﻿namespace ParkinhApp
+﻿namespace ParkingApp
 {
     public class Class1
     {

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ParkingApp
-build_property.ProjectDir = D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\ParkinhApp\
+build_property.ProjectDir = D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\ParkingApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
