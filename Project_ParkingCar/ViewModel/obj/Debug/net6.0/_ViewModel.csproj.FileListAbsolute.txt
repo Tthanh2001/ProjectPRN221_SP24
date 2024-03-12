@@ -1,0 +1,46 @@
+D:\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.deps.json
+D:\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.dll
+D:\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.pdb
+D:\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.dll
+D:\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.pdb
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.AssemblyReference.cache
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfoInputs.cache
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfo.cs
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CoreCompileInputs.cache
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CopyComplete
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.dll
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\refint\_ViewModel.dll
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.pdb
+D:\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\ref\_ViewModel.dll
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.deps.json
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.dll
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.pdb
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.dll
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.pdb
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.AssemblyReference.cache
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfoInputs.cache
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfo.cs
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CoreCompileInputs.cache
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CopyComplete
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.dll
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\refint\_ViewModel.dll
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.pdb
+D:\FPT Courses\PRN221\WPF\ParkingManagementWPF\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\ref\_ViewModel.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.deps.json
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_ViewModel.pdb
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\_DataAccess.pdb
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.AssemblyReference.cache
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfoInputs.cache
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfo.cs
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CoreCompileInputs.cache
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CopyComplete
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\refint\_ViewModel.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\_ViewModel.pdb
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\obj\Debug\net6.0\ref\_ViewModel.dll
+D:\PRN221\Project\ParkingManagementWPF-main\ParkingManagementWPF-main\ParkingManagementWPF\ViewModel\bin\Debug\net6.0\appsettings.json
