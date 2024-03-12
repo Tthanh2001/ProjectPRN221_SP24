@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Picture\aboutUsIcon.png" />
+    <None Remove="Assets\Picture\backIcon.png" />
+    <None Remove="Assets\Picture\busIcon.png" />
+    <None Remove="Assets\Picture\carIcon.png" />
+    <None Remove="Assets\Picture\feedbackIcon.png" />
+    <None Remove="Assets\Picture\logoutIcon.png" />
+    <None Remove="Assets\Picture\pakingBackground.jpg" />
+    <None Remove="Assets\Picture\parkingBackground.png" />
+    <None Remove="Assets\Picture\parkingIcon.png" />
+    <None Remove="Assets\Picture\parkingIcon2.png" />
+    <None Remove="Assets\Picture\priceIcon.png" />
+    <None Remove="Assets\Picture\truckIcon.png" />
+    <None Remove="Assets\Picture\userIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ViewModel\_ViewModel.csproj" />
+    <ProjectReference Include="..\_Repository\_Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Picture\aboutUsIcon.png" />
+    <Resource Include="Assets\Picture\backIcon.png" />
+    <Resource Include="Assets\Picture\busIcon.png" />
+    <Resource Include="Assets\Picture\carIcon.png" />
+    <Resource Include="Assets\Picture\feedbackIcon.png" />
+    <Resource Include="Assets\Picture\logoutIcon.png" />
+    <Resource Include="Assets\Picture\parkingBackground.png" />
+    <Resource Include="Assets\Picture\parkingIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Picture\parkingIcon2.png" />
+    <Resource Include="Assets\Picture\priceIcon.png" />
+    <Resource Include="Assets\Picture\truckIcon.png" />
+    <Resource Include="Assets\Picture\userIcon.png" />
+  </ItemGroup>
+
+</Project>

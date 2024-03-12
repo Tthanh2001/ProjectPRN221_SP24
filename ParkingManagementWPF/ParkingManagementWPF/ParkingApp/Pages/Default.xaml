@@ -1,0 +1,25 @@
+﻿<Page x:Class="ParkingApp.Pages.Default"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParkingApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="880"
+      Title="Default">
+
+    <Grid Loaded="Grid_Loaded" >
+        <Grid.Background>
+            <ImageBrush ImageSource="../Assets/Picture/parkingBackground.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <StackPanel Orientation="Vertical" Margin="0,100,0,100">
+            <TextBlock Text="Parking Management" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       FontSize="48" Foreground="#FFD0AB00" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Italic" Margin="0,100,0,0"></TextBlock>
+            <TextBlock Text="~~~~~~~~~~~~~~~~~~~~~~~~" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                       FontSize="24" Foreground="#FFD0AB00" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Italic" Margin="0,10,0,0"></TextBlock>
+            <TextBlock x:Name="txtUsername" Text="Welcome User123" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                       FontSize="24" Foreground="#FFD0AB00" FontFamily="Segoe UI" FontWeight="Bold" FontStyle="Italic" Margin="0,10,0,0"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

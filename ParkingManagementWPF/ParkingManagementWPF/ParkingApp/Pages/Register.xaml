@@ -1,0 +1,57 @@
+﻿<Page x:Class="ParkingApp.Pages.Register"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParkingApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="760"
+      Title="Register">
+
+    <Page.Resources>
+        <Style x:Key="MenuButton" TargetType="Button">
+            <Setter Property="Margin" Value="0,30"/>
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Width" Value="400" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background" Value="#465148"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#6a746c"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="20,0,20,0">
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,10">
+                <Label Content="Username:" Width="150" FontSize="22" Margin="50,0" Foreground="White"></Label>
+                <TextBox x:Name="txtUsername" Width="400" FontSize="22" VerticalAlignment="Center"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Label Content="Password:" Width="150" FontSize="22" Margin="50,0" Foreground="White"></Label>
+                <PasswordBox x:Name="txtPassword" Width="400" FontSize="22" VerticalAlignment="Center"></PasswordBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Label Content="RePassword:" Width="150" FontSize="22" Margin="50,0" Foreground="White"></Label>
+                <PasswordBox x:Name="txtRePassword" Width="400" FontSize="22" VerticalAlignment="Center"></PasswordBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10">
+                <Label Content="Email:" Width="150" FontSize="22" Margin="50,0" Foreground="White"></Label>
+                <TextBox x:Name="txtEmail" Width="400" FontSize="22" VerticalAlignment="Center"></TextBox>
+            </StackPanel>
+            
+            <Button x:Name="btnRegister" Content="Register" Style="{StaticResource MenuButton}" Foreground="White" FontSize="22" Click="btnRegister_Click"></Button>
+        </StackPanel>
+    </Grid>
+</Page>

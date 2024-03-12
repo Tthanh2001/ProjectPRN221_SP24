@@ -1,0 +1,42 @@
+﻿<Page x:Class="ParkingApp.Pages.AboutUs"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParkingApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="880"
+      Title="AboutUs">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="../Assets/Picture/parkingBackground.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <StackPanel Orientation="Vertical" Margin="0,100,0,100"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="22,46,0,0" VerticalAlignment="Top" Height="25" Width="52"/>
+        <TextBox x:Name="sName" HorizontalAlignment="Left" Margin="89,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" Background="White"  />
+        <DatePicker x:Name="dpDateIn" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top"/>
+        <DatePicker Name="dpDateOut" HorizontalAlignment="Left" Margin="586,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="From" HorizontalAlignment="Left" Margin="333,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="To" HorizontalAlignment="Left" Margin="533,52,0,0" VerticalAlignment="Top"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="725,58,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <ListView x:Name="lvUser" Margin="100,200,150,100" BorderThickness="0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" Width="50"
+                     DisplayMemberBinding="{Binding Path=UserId}"/>
+                    <GridViewColumn Header="Username" Width="150"
+                     DisplayMemberBinding="{Binding Path=Username}"/>
+                    <GridViewColumn Header="Car" Width="150"
+                     DisplayMemberBinding="{Binding Path=VehicleCode}"/>
+                    <GridViewColumn Header="Date In" Width="125"
+                     DisplayMemberBinding="{Binding Path=CheckInTime}"/>
+                    <GridViewColumn Header="Date Out" Width="125"
+                    DisplayMemberBinding="{Binding Path=CheckInOut}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Page>

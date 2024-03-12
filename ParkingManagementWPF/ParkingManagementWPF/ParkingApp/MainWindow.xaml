@@ -1,0 +1,76 @@
+﻿<Window x:Class="ParkingApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParkingApp"
+        mc:Ignorable="d"
+        Title="ParkingManagement" Height="600" Width="1000"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen" Closed="Window_Closed">
+
+    <Window.Resources>
+        <Style x:Key="MenuButton" TargetType="Button">
+            <Setter Property="Margin" Value="6" />
+            <Setter Property="Height" Value="100" />
+            <Setter Property="Width" Value="100" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#4c5879"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid Loaded="Grid_Loaded">
+        <StackPanel Orientation="Horizontal">
+            
+            <StackPanel Orientation="Vertical" Background="#202940">
+                <Button x:Name="btnUserInfo" Style="{StaticResource MenuButton}" Click="btnUserInfo_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="Assets/Picture/userIcon.png" Width="50"/>
+                        <TextBlock x:Name="txtUserBtn" Text="User information" Margin="0,10,0,0" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnlot" Style="{StaticResource MenuButton}" Click="btnlot_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="Assets/Picture/parkingIcon2.png" Width="50"/>
+                        <TextBlock Text="Parking Lots" Margin="0,10,0,0" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnPricing" Style="{StaticResource MenuButton}" Click="btnPricing_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="Assets/Picture/priceIcon.png" Width="50"/>
+                        <TextBlock Text="Pricing" Margin="0,10,0,0" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnAboutUs" Style="{StaticResource MenuButton}" Click="btnAboutUs_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="Assets/Picture/aboutUsIcon.png" Width="50"/>
+                        <TextBlock Text="About Us" Margin="0,10,0,0" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="btnLogOut" Style="{StaticResource MenuButton}" Click="btnLogOut_Click">
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="Assets/Picture/logoutIcon.png" Width="50"/>
+                        <TextBlock Text="Log out" Margin="0,10,0,0" TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Frame x:Name="Main" NavigationUIVisibility="Hidden" Margin="0,0,0,0" Height="582" Width="880"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

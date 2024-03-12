@@ -1,0 +1,14 @@
+D:\ParkingManagementWPF\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\ParkingManagementWPF\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\ParkingManagementWPF\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\ParkingManagementWPF\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\ParkingManagementWPF\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
