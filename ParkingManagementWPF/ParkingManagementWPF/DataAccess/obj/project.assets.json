@@ -2386,11 +2386,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj",
+      "projectUniqueName": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj",
       "projectName": "_DataAccess",
-      "projectPath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj",
+      "projectPath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\DataAccess\\obj\\",
+      "outputPath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

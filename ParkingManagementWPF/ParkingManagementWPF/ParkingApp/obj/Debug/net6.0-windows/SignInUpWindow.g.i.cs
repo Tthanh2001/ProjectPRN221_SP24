@@ -77,7 +77,7 @@ namespace ParkingApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ParkingApp;V1.0.0.0;component/signinupwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ParkingApp;component/signinupwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SignInUpWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

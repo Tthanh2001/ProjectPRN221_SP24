@@ -93,7 +93,7 @@ namespace ParkingApp.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ParkingApp;V1.0.0.0;component/pages/userinfoadmin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ParkingApp;component/pages/userinfoadmin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\UserInfoAdmin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

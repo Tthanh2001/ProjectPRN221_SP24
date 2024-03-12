@@ -85,7 +85,7 @@ namespace ParkingApp.WindowPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ParkingApp;V1.0.0.0;component/windowpage/parkingareadetailadmin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ParkingApp;component/windowpage/parkingareadetailadmin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\WindowPage\ParkingAreaDetailAdmin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -2303,11 +2303,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
+      "projectUniqueName": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
       "projectName": "_ViewModel",
-      "projectPath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
+      "projectPath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\ViewModel\\obj\\",
+      "outputPath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2329,8 +2329,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj": {
-              "projectPath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj"
+            "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj": {
+              "projectPath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\DataAccess\\_DataAccess.csproj"
             }
           }
         }

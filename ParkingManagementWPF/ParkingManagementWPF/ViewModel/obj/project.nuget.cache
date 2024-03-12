@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WOhDKijSWwHg1ITcjgjxIwi9YhGuJju7womAWPN8+T5+BwOGE1OdIQI4eJO6BoMT2TmE5b4e+Ee+5kADEhI23A==",
+  "dgSpecHash": "MdgZUfBpefGa9k7MJh9bMSezlwKJ3gg5cPzKYuU8LB4J7SgOmXLAeqHoaxs6dIIB/kal2hMZUixe9xT0m0y0PQ==",
   "success": true,
-  "projectFilePath": "D:\\PRN221\\Project\\ParkingManagementWPF-maincopy\\ParkingManagementWPF-main\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
+  "projectFilePath": "D:\\PRN221\\Project\\ProjectPRN221_SP24\\ParkingManagementWPF\\ParkingManagementWPF\\ViewModel\\_ViewModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\hoang\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
