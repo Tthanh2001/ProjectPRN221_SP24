@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParkingApp", "ParkingApp\ParkingApp.csproj", "{D00AE2E5-B153-4450-905E-B0ABF699A159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{2FC60383-595D-4E53-8C06-1C3A1F7607D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{2FC60383-595D-4E53-8C06-1C3A1F7607D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_ViewModel", "_ViewModel\_ViewModel.csproj", "{89FE7C09-17DC-473D-9223-BD32D3ADD989}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2FC60383-595D-4E53-8C06-1C3A1F7607D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FC60383-595D-4E53-8C06-1C3A1F7607D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FC60383-595D-4E53-8C06-1C3A1F7607D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FE7C09-17DC-473D-9223-BD32D3ADD989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FE7C09-17DC-473D-9223-BD32D3ADD989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FE7C09-17DC-473D-9223-BD32D3ADD989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FE7C09-17DC-473D-9223-BD32D3ADD989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

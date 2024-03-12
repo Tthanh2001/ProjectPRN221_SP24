@@ -1,0 +1,5 @@
+D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\_ViewModel\obj\Debug\net6.0\_ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\_ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfoInputs.cache
+D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\_ViewModel\obj\Debug\net6.0\_ViewModel.AssemblyInfo.cs
+D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\_ViewModel\obj\Debug\net6.0\_ViewModel.csproj.CoreCompileInputs.cache
+D:\PRN221\Project\ProjectPRN221_SP24\Project_ParkingCar\_ViewModel\obj\Debug\net6.0\_ViewModel.sourcelink.json
