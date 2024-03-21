@@ -12,6 +12,11 @@ namespace _Repository.Implements
 {
     public class LotRepository : ILotRepository
     {
+        public void AddLot(string lotId, int typeId, bool status)
+        {
+            
+        }
+
         public IEnumerable<LotDTO> GetAll()
         {
             return LotDAO.Instance.GetAll().Select(m => MapToDTO.Map(m));

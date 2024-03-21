@@ -12,5 +12,6 @@ namespace _Repository
         public IEnumerable<LotDTO> GetAll();
         public LotDTO GetById(string area, int position);
         public void UpdateStatus(string area, int position, bool status);
+        public void AddLot(string lotId, int typeId, bool status);
     }
 }

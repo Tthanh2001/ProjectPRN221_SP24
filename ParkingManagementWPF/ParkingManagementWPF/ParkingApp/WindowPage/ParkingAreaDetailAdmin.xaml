@@ -81,14 +81,19 @@
                                     DisplayMemberBinding="{Binding Path=VehicleCode}"/>
                                     <GridViewColumn Header="Lot" Width="50"
                                     DisplayMemberBinding="{Binding Path=LotId}"/>
+
                                 </GridView>
+
                             </ListView.View>
                         </ListView>
+
                     </StackPanel>
-                    
-                    
+
                 </StackPanel>
             </StackPanel>
+            
+
+
         </StackPanel>
     </Grid>
 </Window>

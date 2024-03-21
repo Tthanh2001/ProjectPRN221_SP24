@@ -1,8 +1,10 @@
-﻿using _Repository;
+﻿using _DataAccess.Models;
+using _Repository;
 using _Repository.Implements;
 using _ViewModel.DTO;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,6 +33,7 @@ namespace ParkingApp.Pages
         {
             InitializeComponent();
             this.userid = userid;
+            txtVehicleCode.IsReadOnly = true;
         }
 
         public void Load()
@@ -104,5 +107,70 @@ namespace ParkingApp.Pages
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnUpdateVehicle_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var selectedItem = lvVehicles.SelectedItem as VehicleDTO;
+                if (selectedItem != null)
+                {
+ 
+                    selectedItem.Brand = txtBrand.Text;
+                    selectedItem.Name = txtName.Text;
+                    MessageBox.Show("Update vehicle success");
+
+                    Load();
+                }
+                else
+                {
+                    MessageBox.Show("Please select a vehicle to update.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating vehicle: " + ex.Message);
+            }
+        }
+
+
+
+        private void lvVehicles_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            // Lấy phần tử được chọn từ ListView
+            var selectedItem = lvVehicles.SelectedItem as VehicleDTO;
+
+            // Hiển thị thông tin của xe được chọn trên các ô nhập liệu
+            if (selectedItem != null)
+            {
+                txtVehicleCode.Text = selectedItem.VehicleCode;
+                txtBrand.Text = selectedItem.Brand;
+                txtName.Text = selectedItem.Name;
+
+                // Chỉnh index của ComboBox cmbType tương ứng với loại xe của xe được chọn
+                cmbType.SelectedIndex = FindIndexInComboBox(selectedItem.TypeId);
+            }
+        }
+
+        private int FindIndexInComboBox(int typeId)
+        {
+            int index = -1;
+            for (int i = 0; i < cmbType.Items.Count; i++)
+            {
+                var item = cmbType.Items[i] as VehicleTypeDTO;
+                if (item != null && item.TypeId == typeId)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            return index;
+        }
     }
-}
+    }
+    
+
+
+
+
+

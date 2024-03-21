@@ -1,4 +1,5 @@
-﻿using _Repository;
+﻿using _DataAccess.Models;
+using _Repository;
 using _Repository.Implements;
 using _ViewModel.DTO;
 using System;
@@ -78,5 +79,7 @@ namespace ParkingApp.WindowPage
             instance = null;
             this.Close();
         }
+
+
     }
 }

@@ -13,5 +13,6 @@ namespace _ViewModel.DTO
         public string VehicleCode { get; set; } = null!;
         public DateTime? CheckInTime { get; set; }
         public DateTime? CheckInOut { get; set; }
+        public decimal? TotalPaid { get; set; }
     }
 }

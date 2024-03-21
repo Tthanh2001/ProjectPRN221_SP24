@@ -45,9 +45,11 @@ namespace ParkingApp.Pages
                              VehicleCode = vehicle.VehicleCode,
                              CheckInTime = invoice.CheckInTime,
                              CheckInOut = invoice.CheckInOut,
+                             TotalPaid = invoice.TotalPaid
                          };
 
             lvUser.ItemsSource = result.ToList();
+            Total.Text = result.Sum(item => item.TotalPaid).ToString();
         }
 
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -81,6 +83,11 @@ namespace ParkingApp.Pages
             }
 
             lvUser.ItemsSource = result.ToList();
+        }
+
+        private void btnExport_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 

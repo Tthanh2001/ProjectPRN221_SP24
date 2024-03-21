@@ -83,5 +83,27 @@ namespace _DataAccess.DAO
                 throw new Exception(e.Message);
             }
         }
+
+        public void AddLot(string lotId, int typeId, bool status)
+        {
+            try
+            {
+                var db = new parkingDBWpfContext();
+                var item = new Lot()
+                {
+                    
+                    TypeId = typeId,
+                    Status = status
+                };
+
+
+                db.Lots.Add(item);
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

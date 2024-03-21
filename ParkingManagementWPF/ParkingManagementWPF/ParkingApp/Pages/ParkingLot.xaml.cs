@@ -123,5 +123,7 @@ namespace ParkingApp.Pages
                 parkingAreaDetail.Show();
             }
         }
+
+       
     }
 }

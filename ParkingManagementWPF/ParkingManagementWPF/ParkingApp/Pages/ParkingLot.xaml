@@ -75,7 +75,10 @@
                         <Image Source="../Assets/Picture/truckIcon.png" Width="50"/>
                     </StackPanel>
                 </Button>
+               
+
             </StackPanel>
+            
         </StackPanel>
     </Grid>
 </Page>
