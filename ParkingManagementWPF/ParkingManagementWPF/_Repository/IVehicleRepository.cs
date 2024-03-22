@@ -14,5 +14,7 @@ namespace _Repository
         public void AddVehicle(VehicleDTO vehicleDTO);
         public void DeleteVehicle(string code);
         public void UpdateisParking(string code, bool isParking);
+        public void UpdateCar(VehicleDTO vehicleDTO);
+
     }
 }

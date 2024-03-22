@@ -50,6 +50,28 @@ namespace _Repository.Implements
             return MapToDTO.Map(VehicleDAO.Instance.GetByVehicleCode(code));
         }
 
+        public void UpdateCar(VehicleDTO vehicleDTO)
+        {
+            try
+            {
+                checkVehicleCode(vehicleDTO.VehicleCode);
+                Vehicle vehicle = new Vehicle
+                {
+                    UserId = vehicleDTO.UserId,
+                    VehicleCode = vehicleDTO.VehicleCode,
+                    Brand = vehicleDTO.Brand,
+                    IsParking = false,
+                    TypeId = vehicleDTO.TypeId,
+                    Name = vehicleDTO.Name,
+                };
+                VehicleDAO.Instance.UpdateCar(vehicle);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
         public void UpdateisParking(string code, bool isParking)
         {
             VehicleDAO.Instance.UpdateIsParking(code, isParking);

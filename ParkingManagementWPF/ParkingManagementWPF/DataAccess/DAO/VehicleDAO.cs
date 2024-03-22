@@ -132,5 +132,19 @@ namespace _DataAccess.DAO
                 throw new Exception(e.Message);
             }
         }
+        public void UpdateCar(Vehicle vehicle)
+        {
+            var db = new parkingDBWpfContext();
+            var v = db.Vehicles.FirstOrDefault(x => x.VehicleCode.Equals(vehicle.VehicleCode));
+            v.Type = vehicle.Type;
+            v.Name = vehicle.Name;
+            v.Brand = vehicle.Brand;
+            db.Vehicles.Update(v);
+            
+            db.SaveChanges();
+            
+
+        }
     }
+    
 }

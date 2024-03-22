@@ -115,9 +115,11 @@ namespace ParkingApp.Pages
                 var selectedItem = lvVehicles.SelectedItem as VehicleDTO;
                 if (selectedItem != null)
                 {
- 
+                    selectedItem.VehicleCode = txtVehicleCode.Text;
+                    selectedItem.TypeName = cmbType.Text;
                     selectedItem.Brand = txtBrand.Text;
                     selectedItem.Name = txtName.Text;
+                    vehicleRepository.UpdateCar(selectedItem);
                     MessageBox.Show("Update vehicle success");
 
                     Load();
@@ -150,6 +152,7 @@ namespace ParkingApp.Pages
                 // Chỉnh index của ComboBox cmbType tương ứng với loại xe của xe được chọn
                 cmbType.SelectedIndex = FindIndexInComboBox(selectedItem.TypeId);
             }
+            
         }
 
         private int FindIndexInComboBox(int typeId)
