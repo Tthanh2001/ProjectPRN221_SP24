@@ -337,3 +337,12 @@ D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\P
 D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\obj\Debug\net6.0-windows\ParkingApp.pdb
 D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\obj\Debug\net6.0-windows\ParkingApp.genruntimeconfig.cache
 D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\obj\Debug\net6.0-windows\ref\ParkingApp.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\obj\Debug\net6.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\obj\Debug\net6.0-windows\ParkingApp.csproj.ResolveComReference.cache
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\EPPlus.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\EPPlus.Interfaces.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\EPPlus.System.Drawing.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\Microsoft.IO.RecyclableMemoryStream.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\PRN221\Project\ProjectPRN221_SP24\ParkingManagementWPF\ParkingManagementWPF\ParkingApp\bin\Debug\net6.0-windows\CsvHelper.dll

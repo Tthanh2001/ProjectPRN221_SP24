@@ -1,9 +1,14 @@
 ﻿using _DataAccess.Models;
 using _ViewModel.DTO;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Win32;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
+using System.Data;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -15,6 +20,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using OfficeOpenXml;
+using CsvHelper;
+using System.Globalization;
+
+
+
 
 namespace ParkingApp.Pages
 {
@@ -87,9 +98,40 @@ namespace ParkingApp.Pages
 
         private void btnExport_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                string filePath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ParkingDataExport.csv");
 
+
+                using (var writer = new StreamWriter(filePath))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+
+                    foreach (GridViewColumn column in ((GridView)lvUser.View).Columns)
+                    {
+                        csv.WriteField(column.Header.ToString());
+                    }
+                    csv.NextRecord();
+
+                    foreach (FilterDTO item in lvUser.Items)
+                    {
+                        csv.WriteRecord(item);
+                        csv.NextRecord();
+                    }
+
+                    MessageBox.Show("Data exported to CSV successfully!", "Export Successful", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error exporting data to CSV: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
-
 }
+
+    
+       
+    
+
 

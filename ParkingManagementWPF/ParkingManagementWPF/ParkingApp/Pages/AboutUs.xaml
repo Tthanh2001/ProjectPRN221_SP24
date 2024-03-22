@@ -21,7 +21,7 @@
         <Label Content="From" HorizontalAlignment="Left" Margin="333,53,0,0" VerticalAlignment="Top"/>
         <Label Content="To" HorizontalAlignment="Left" Margin="533,52,0,0" VerticalAlignment="Top"/>
         <Button Content="Search" HorizontalAlignment="Left" Margin="725,58,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <ListView x:Name="lvUser" Margin="89,100,100,200" BorderThickness="0">
+        <ListView x:Name="lvUser" Margin="89,100,80,200" BorderThickness="0">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Id" Width="50"
@@ -42,7 +42,7 @@
         </ListView>
         <Label Content="TotalPaid" HorizontalAlignment="Left" Margin="498,500,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="586,508,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="Total"/>
-        <Button Content="xuat ra Excel" HorizontalAlignment="Left" Margin="715,547,0,0" VerticalAlignment="Top" Name="btnExport" Click="btnExport_Click"/>
+        <Button Content="xuat ra Excel" HorizontalAlignment="Left" Margin="773,508,0,0" VerticalAlignment="Top" Name="btnExport" Click="btnExport_Click"/>
 
 
     </Grid>
